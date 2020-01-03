@@ -1,4 +1,7 @@
 ---
+- name: install amazon-linux-extras install
+  command: sudo amazon-linux-extras install
+  
 - name: Add epel-release repo
   yum:
     name: epel-release
